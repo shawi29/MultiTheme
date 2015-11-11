@@ -12,6 +12,7 @@
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link href="css/owl.transitions.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -35,15 +36,55 @@
         <div class="collapse navbar-collapse navbar-right">
           <ul class="nav navbar-nav">
             <li class="scroll active"><a href="#home">Home</a></li>
-            <li class="scroll"><a href="#portfolio">Portfolio</a></li>
+            <li class="scroll-portafolio"><a href="#portfolio">Portfolio</a></li>
             <li class="scroll"><a href="#about">About</a></li>
-            <li class="scroll"><a href="#get-in-touch">Contact</a></li>                        
+            <li class="scroll"><a href="#contact">Contact</a></li>                        
           </ul>
         </div>
       </div>
     </nav>
   </header>
+  <section id="main-slider">
+    <div class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="carousel-content centered">
+                  <h2><span>multi</span> is the best onepage html template</h2>
+                  <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a class="btn btn-lg" href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/bg2.jpg)">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="carousel-content center centered">
+                  <h2 class="boxed animation animated-item-1">beautiful design free onepage template</h2>
+                  <p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                  <br>
+                  <a class="btn btn-lg " href="#">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--/.item-->
 
+           </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="icon-angle-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="icon-angle-right"></i>
+        </a>
+    </section>
    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     
@@ -56,6 +97,123 @@
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
+
+  <section id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title text-center wow fadeInDown">Our Works</h2>
+        <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+      </div>
+      <div class="text-center">
+        <ul class="portfolio-filter">
+          <li><a class="active" href="#" data-filter="*">All Works</a></li>
+                    <li><a href="#" data-filter=".creative">Creative</a></li>
+                    <li><a href="#" data-filter=".corporate">Corporate</a></li>
+                    <li><a href="#" data-filter=".portfolio">Portfolio</a></li>
+                </ul><!--/#portfolio-filter-->
+            </div>
+
+            <div class="portfolio-items">
+                <div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/01.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Portfolio Item 1</h3>
+                            Lorem Ipsum Dolor Sit
+                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item corporate portfolio">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/02.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Portfolio Item 2</h3>
+                            Lorem Ipsum Dolor Sit
+                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/03.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Portfolio Item 3</h3>
+                            Lorem Ipsum Dolor Sit
+                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item corporate">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/04.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Portfolio Item 4</h3>
+                            Lorem Ipsum Dolor Sit
+                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item creative portfolio">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/05.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Portfolio Item 5</h3>
+                            Lorem Ipsum Dolor Sit
+                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item corporate">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/06.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Portfolio Item 5</h3>
+                            Lorem Ipsum Dolor Sit
+                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item creative portfolio">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/07.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Portfolio Item 7</h3>
+                            Lorem Ipsum Dolor Sit
+                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item corporate">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/08.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Portfolio Item 8</h3>
+                            Lorem Ipsum Dolor Sit
+                            <a class="preview" href="images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+            </div>
+        </div><!--/.container-->
+    </section>  
     
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
